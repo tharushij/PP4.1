@@ -4,17 +4,9 @@ public class DieDriver
 {
     public static void main(String[]args)
     {
-        //Create some dice
-        Die die1 = new Die();
-        Die die2 = new Die();
-        //user input
-        Scanner keyboard = new Scanner(System.in);
-
-        //sides?
-        System.out.println("How many sides?");
-        numSides = keyboard.nextInt();
-
-        rollDie
-    }
-
-} //end class DieDriver
+        //instantiate new die object
+        rollDie die1 = new rollDie();
+        //print it out
+        System.out.println(die1.roll());
+    } //end method main
+} //end class dieDriver //end class DieDriver
