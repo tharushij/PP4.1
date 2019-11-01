@@ -12,13 +12,13 @@ public class rollDie
     {
         numSides = 0;
         lands = 0;
-    }
+    } //end default constructor
     //set up double/multi arg constructor
     public void Die(int newNumSides, int newLands)
     {
         numSides = newNumSides;
         lands = newLands;
-    }
+    } //end multi-arg constructor
     //returns landed face as string
     public String roll()
     {
@@ -39,7 +39,7 @@ public class rollDie
         String output;
         output = "It landed on: " + lands;
         return output;
-    }
+    } //end method roll
 
 
 } //end class rollDie
